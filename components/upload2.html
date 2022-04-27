@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/html" src="{require('../index.js')}" ></script>
+    <title>upload2 Component's page</title>
+<script defer src="/control-panel.github.io/app.js"></script><script defer src="/control-panel.github.io/assets/js/upload2.js"></script><link href="/control-panel.github.io/css/styles.css" rel="stylesheet"></head>
+<body>
+    <div class="component-container">
+        <div class="c-upload js-upload">
+            <header class="c-upload__header">
+                <h4 class="c-upload__title">صورة المنتج</h4>
+                <label for="upload-img" class="c-upload__label">ارفع الصورة </label>
+                <span class="c-upload__label c-upload__label--remove js-upload__remove ">حذف الصورة</span>
+            </header>
+    
+            <div class="c-upload__body">
+                <div class="c-upload__img">
+                    <img  class="js-upload__palceholder">
+                </div>
+                <input type="file" class="c-upload__filed js-upload__field" name="upload-img " id="upload-img " accept="images/*">
+                <span class="c-upload__subtitle "> اسحب الصورة هنا لرفعها</span>
+            </div>
+        </div>
+        <div class="c-upload js-upload c-upload--small">
+            <header class="c-upload__header">
+                <h4 class="c-upload__title">صورة المنتج</h4>
+            </header>
+            
+            <div class="c-upload__body">
+                <label for="upload-img" class="c-upload__label">ارفع الصورة </label>
+                
+                <img  class="js-upload__palceholder">
+    
+                <input type="file" class="c-upload__filed js-upload__field" name="upload-img " id="upload-img " accept="images/*">
+                
+            </div>
+            <span class="c-upload__label c-upload__label--remove js-upload__remove ">حذف الصورة</span>
+        </div>
+    </div>
+</body>
+</html>
